@@ -330,7 +330,7 @@ var mainExports = {};
 
                     $.ajax({
                         type: "POST",
-                        url: "/api/europeana",
+                        url: "https://exploreat-dh-dashboard-server.acdh-dev.oeaw.ac.at/europeana",
                         data: JSON.stringify(params),
                         contentType: 'application/json',
                         async: true,
